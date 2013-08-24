@@ -11,6 +11,8 @@ heads         0.010000   0.070000   0.390000 (  0.413918)
 #make some other change, you know~
 # I want to do some test for git.
 Grit (with GitRuby) : 
+# This is another hot fix.
+# do you like git?
 
               user     system      total        real
 packobj       0.050000   0.010000   0.060000 (  0.078318)
