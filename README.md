@@ -114,6 +114,8 @@ The above will return commits 21-30 from the commit list.
 ### The Commit object
 
 `Commit` objects contain information about that commit.
+#nicolas test line
+#nicolas test line 2
 
     head = repo.commits.first
 
@@ -145,12 +147,9 @@ You can traverse a commit's ancestry by chaining calls to `#parents`.
 
     repo.commits.first.parents[0].parents[0].parents[0]
 
-The above corresponds to **master^^^** or **master~3** in Git parlance.
-
 
 ### The Tree object
 
-A tree records pointers to the contents of a directory. Let's say you want
 the root tree of the latest commit on the **master** branch.
 
     tree = repo.commits.first.tree
